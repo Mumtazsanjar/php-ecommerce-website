@@ -1,87 +1,158 @@
-# ShopZone - Complete E-Commerce Website
+# 🛒 ShopZone - PHP E-Commerce Website
 
-## Setup Instructions (XAMPP)
+A modern, fully responsive E-Commerce web application built with **PHP, MySQL, HTML, CSS, and JavaScript**.
 
-### Step 1: Files Copy Karein
-Is `ecommerce` folder ko copy karein aur yahan paste karein:
+The platform provides customers with a smooth shopping experience while offering administrators a complete dashboard to manage products, orders, and customers.
+
+---
+
+## 🚀 Features
+
+### 👥 Customer Features
+
+* User registration and authentication
+* Browse products with responsive UI
+* Product detail pages
+* Add products to cart
+* Session-based shopping cart
+* Checkout system
+* Order placement and tracking
+* Search functionality
+* Contact page
+
+### 🛠️ Admin Features
+
+* Admin Dashboard
+* Product management (Add, Update, Delete)
+* Order management
+* Customer management
+* Secure admin login
+
+---
+
+## 🔐 Security Features
+
+* Secure authentication system
+* Session-based access control
+* SQL Injection protection using prepared statements
+* Form validation and sanitization
+
+---
+
+## 🧰 Tech Stack
+
+| Layer    | Technology              |
+| -------- | ----------------------- |
+| Backend  | PHP                     |
+| Database | MySQL                   |
+| Frontend | HTML5, CSS3, JavaScript |
+| Server   | Apache (XAMPP)          |
+
+---
+
+## 📁 Project Structure
+
+```text
+ecommerce/
+├── admin/
+├── ajax/
+├── assets/
+├── config/
+├── database/
+├── includes/
+├── index.php
+├── products.php
+├── product.php
+├── cart.php
+├── checkout.php
+├── login.php
+├── register.php
+└── contact.php
 ```
-C:/xampp/htdocs/ecommerce/
+
+---
+
+## ⚙️ Installation
+
+### 1. Clone Repository
+
+```bash
+git clone https://github.com/YOUR_USERNAME/php-ecommerce-website.git
 ```
 
-### Step 2: XAMPP Start Karein
-- Apache start karein
-- MySQL start karein
+Move the project folder to:
 
-### Step 3: Database Import Karein
-1. Browser mein kholen: `http://localhost/phpmyadmin`
-2. "New" par click karein
-3. Database name: `ecommerce_db` likhein aur Create karein
-4. "Import" tab par jayein
-5. `database/schema.sql` file select karein aur Import karein
-
-### Step 4: Website Open Karein
+```text
+C:\xampp\htdocs\ecommerce
 ```
+
+### 2. Start XAMPP
+
+Start:
+
+* Apache
+* MySQL
+
+### 3. Create Database
+
+Open:
+
+```text
+http://localhost/phpmyadmin
+```
+
+Create a database named:
+
+```text
+ecommerce_db
+```
+
+Import:
+
+```text
+database/schema.sql
+```
+
+### 4. Run Project
+
+Open:
+
+```text
 http://localhost/ecommerce
 ```
 
 ---
 
-## Login Credentials
+## 🔑 Admin Credentials
 
-### Admin Panel
-- URL: `http://localhost/ecommerce/admin`
-- Email: `admin@shop.com`
-- Password: `admin123`
+| Field    | Value                                   |
+| -------- | --------------------------------------- |
+| Email    | [admin@shop.com](mailto:admin@shop.com) |
+| Password | admin123                                |
+
+Admin URL:
+
+```text
+http://localhost/ecommerce/admin
+```
+
 
 ---
 
-## Project Structure
+## 👨‍💻 Author
 
-```
-ecommerce/
-├── config/
-│   └── database.php          # Database connection
-├── includes/
-│   ├── header.php            # Site header/navigation
-│   └── footer.php            # Site footer
-├── assets/
-│   ├── css/
-│   │   └── style.css         # Main stylesheet
-│   └── js/
-│       └── main.js           # JavaScript
-├── ajax/
-│   └── cart.php              # Cart AJAX handler
-├── admin/
-│   ├── index.php             # Dashboard
-│   ├── products.php          # Products list
-│   ├── add-product.php       # Add product
-│   ├── orders.php            # Orders management
-│   ├── customers.php         # Customers list
-│   └── includes/
-│       └── sidebar.php       # Admin sidebar
-├── database/
-│   └── schema.sql            # Database structure + sample data
-├── index.php                 # Homepage
-├── products.php              # Products listing
-├── product.php               # Product detail
-├── cart.php                  # Shopping cart
-├── checkout.php              # Checkout
-├── order-success.php         # Order confirmation
-├── login.php                 # Login page
-├── register.php              # Registration
-├── orders.php                # My orders
-├── contact.php               # Contact page
-├── search.php                # Search redirect
-└── logout.php                # Logout
-```
+**Mumtaz Sanjar**
 
-## Features
-- Modern responsive design
-- Product listing with filters
-- Shopping cart (session-based)
-- User registration & login
-- Order placement
-- Admin dashboard
-- Product management
-- Order management
-- Customer management
+GitHub: https://github.com/Mumtazsanjar
+
+---
+
+## ⭐ Support
+
+If you found this project helpful, please give it a ⭐ on GitHub.
+
+---
+
+## 📬 Contact
+
+For collaboration, freelance projects, or inquiries, feel free to connect through GitHub.
